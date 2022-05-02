@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>make a notes !</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav-left">
+        <li class="logo">Magic Notes</li>
+        <li class="home">Home</li>
+      </div>
+      <div class="nav-right">
+        <input type="text" class="text" id="search" placeholder="search" />
+        <div class="btn">
+          <button class="searchbtn" value="search">search</button>
+        </div>
+      </div>
+    </div>
+    <div class="inputfield">
+      <h1 class="heading">Welcome to Magic Notes</h1>
+      <div class="input1">
+        <label class="add">Add Title</label>
+      </div>
+      <textarea
+        class="txt"
+        id="add-title"
+        rows="2"
+        cols="30"
+        placeholder="Enter title"
+      ></textarea>
+
+      <div class="input2">
+        <label class="add">Add a note</label>
+      </div>
+      <textarea class="textarea" id="add-details" rows="5" cols="30"></textarea>
+      <div>
+        <button class="addnote" id="add-btn">Add Notes</button>
+      </div>
+    </div>
+    <div>
+      <h2 class="yournote">Your Notes</h2>
+    </div>
+
+    <div id="notesfield">
+      <div class="innernotes" id="innernotes">
+        <b class="addtitle">title</b>
+        <br />
+        <p class="adddetails">make a first notes</p>
+        <div>
+          <button href="#" id="delbtn">Delete Note</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
